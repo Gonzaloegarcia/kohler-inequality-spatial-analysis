@@ -1,0 +1,6 @@
+pandas==3.0.5
+numpy==2.5.2
+psycopg2-binary==2.9.12
+libpysal==4.15.0
+esda==2.10.0
+scikit-learn==1.9.0
