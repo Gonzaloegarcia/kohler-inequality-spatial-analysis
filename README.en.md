@@ -57,16 +57,7 @@ together), using the `SiteGiniNeib` dataset from the same project.
 ## About the data and its license
 
 This repository **includes no CSV files at all**, neither the original
-tDAR dataset nor the files the pipeline itself produces. Two reasons:
-
-1. **Unresolved licensing.** The Kohler et al. paper (PNAS) is
-   licensed CC BY-NC-ND 4.0, but that license is declared over *the
-   article*, not the dataset — neither the paper nor the tDAR dataset
-   page states an explicit reuse license for the data. Given that
-   ambiguity, the decision was to not redistribute anything and point
-   to the source instead.
-2. Consistency with the rest of the ArqueoData portfolio, where raw
-   data is likewise not versioned in the public repo.
+tDAR dataset nor the files the pipeline itself produces.
 
 **The original dataset is openly accessible** (just requires a free
 tDAR account) and can be downloaded here, with attribution to the
@@ -83,10 +74,6 @@ original authors:
 - **Special Feature introduction:** Kohler, T.A., Bogaard, A., Ortman,
   S.G. 2025. "Introducing the Special Feature on housing differences
   and inequality over the very long term." *PNAS* 122(16), e2401989122.
-
-What this repository does include (`scripts/`, `sql/`) is the code for
-the full pipeline, reproducible against the original data downloaded
-from tDAR under your own account.
 
 ## Repository structure
 

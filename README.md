@@ -58,16 +58,7 @@ del mismo proyecto.
 ## Sobre los datos y su licencia
 
 Este repositorio **no incluye ningún CSV**, ni el dataset original de
-tDAR ni los archivos que produce el propio pipeline. Dos motivos:
-
-1. **Licencia sin resolver.** El paper de Kohler et al. (PNAS) está
-   bajo CC BY-NC-ND 4.0, pero esa licencia está declarada sobre *el
-   artículo*, no sobre el dataset — ni el paper ni la página del
-   dataset en tDAR fijan una licencia explícita de reuso para los
-   datos. Ante esa ambigüedad, se optó por no redistribuir nada y
-   señalar la fuente en su lugar.
-2. Consistencia con el resto del portfolio de ArqueoData, donde los
-   datos crudos tampoco se versionan en el repo público.
+tDAR ni los archivos que produce el propio pipeline.
 
 **El dataset original es de acceso abierto** (requiere solo una cuenta
 gratuita en tDAR) y se puede descargar acá, con la atribución que
@@ -85,10 +76,6 @@ corresponde a los autores originales:
   Ortman, S.G. 2025. "Introducing the Special Feature on housing
   differences and inequality over the very long term." *PNAS*
   122(16), e2401989122.
-
-Lo que sí está en este repositorio (`scripts/`, `sql/`) es el código de
-todo el pipeline, reproducible contra los datos originales descargados
-de tDAR bajo tu propia cuenta.
 
 ## Estructura del repositorio
 
